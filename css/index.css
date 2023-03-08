@@ -1,4 +1,58 @@
-#pagescetion{
-    display: grid;
-    grid-template-areas: none;
+body {
+    background-color: #e9ecef;
+    width: 100%
+}
+
+
+.card {
+    width: 66% !important;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+.card-deck {
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.edward {
+    border: black 5px;
+    height: 300px;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+h2 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.fa-solid:hover {
+    background-color: lightblue;
+}
+
+.fa-brands:hover {
+    background-color: lightblue;
+}
+
+.nav-link {
+    color: black !important;
 }

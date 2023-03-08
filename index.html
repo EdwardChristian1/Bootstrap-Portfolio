@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css" />
+  <script src="https://kit.fontawesome.com/b80610dc5e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
           <a class="nav-link" href="#contact">Contact Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">CV</a>
+          <a class="nav-link" href="./Edward Christians CV 2023 WD.docx">CV</a>
         </li>
       </ul>
     </div>
@@ -41,17 +42,18 @@
    -->
   <section class="hero-section">
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Edward Christian</h1>
+      <div class="container text-center">
+        <h1 class="display-4">Edward Christian | Web Developer</h1>
         <p class="lead">Welcome to my Portfolio!</p>
         <img src="./images/Edward Christian.jpg" class="edward">
+
       </div>
     </div>
   </section>
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="page-section text-center" id="about">
+      <h2>About Me / Skills</h2>
       <div>
         <p>I'm a student web developer from London who loves learning new skills. I have a maths degree and enjoy
           problem-solving. I want to pursue a career that utilises my skills. Currently, I'm going through a web
@@ -61,28 +63,71 @@
       </div>
     </section>
 
-    <!-- portfolio container -->
+    <!-- work card section -->
     <section class="page-section" id="work">
       <h2>Work</h2>
 
       <div>
-        <h3>Prework</h3>
-        <a href="https://edwardchristian1.github.io/prework-study-guide/">
-          <img src="./images/prework screenshot.png" alt="prework">
-        </a>
+        <div class="card-deck">
+          <div class="card">
+            <a href="https://edwardchristian1.github.io/prework-study-guide/"><img src="./images/prework screenshot.png"
+                class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Prework</h5>
+              <p class="card-text">This was a bootcamp challenge to create a study guide which also tells you which
+                subject to study when you open the console.</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://edwardchristian1.github.io/project-one/"> <img
+                src="./images/week one project screenshot.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Bootcamp challenge 1</h5>
+              <p class="card-text">This was a bootcamp challenge to modify the website html to make it optimised for
+                search engines.</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://edwardchristian1.github.io/Portfolio/"> <img src="./images/Portfolio Screenshot.png"
+                class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Bootcamp Challenge 2 - Portfoio</h5>
+              <p class="card-text">This was a bootcamp challenge to utilise the html and css skills learned and create a
+                portfolio.</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
 
-        <h3>Bootcamp Challenge One</h3>
-        <a href="https://edwardchristian1.github.io/project-one/">
-          <img src="./images/week one project screenshot.png" alt="project-one">
-        </a>
+        <!-- contact -->
+        <section class="page-section contact" id="contact">
+          <h2>Contact Me</h2>
+          <div id="contact-links">
 
-        <a>
-          <h3>Placeholder</h3><img src="./images/Work project place holder.png" alt="placeholder">
-        </a>
+            <a href="mailto:edwardchristian@outlook.com"><i class="fa-solid fa-envelope"></i></a>
 
+            <a href="https://github.com/EdwardChristian1"><i class="fa-brands fa-github"></i></a>
+
+            <a href="https://www.linkedin.com/in/edward-christian-aatqb-580556177/"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </section>
 
       </div>
     </section>
+
+    <!--  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 
 </body>
 
