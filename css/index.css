@@ -1,3 +1,4 @@
+/* changed background to match jumbotron */
 body {
     background-color: #e9ecef;
     width: 100%
@@ -10,17 +11,19 @@ body {
     margin: 0 auto;
 }
 
+/* added padding so the cards werent right up against the edge */
 .card-deck {
     padding: 10px;
 }
 
+/* pushed the navbar to the right of the page */
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
 
+/* Changed the pictures size and put it underneath the header  */
 .edward {
-    border: black 5px;
     height: 300px;
     width: 225px;
     display: block;
@@ -28,7 +31,7 @@ body {
 
 }
 
-
+/* centered the titles */
 h2 {
     display: flex;
     flex: auto;
@@ -36,6 +39,7 @@ h2 {
     align-content: center;
 }
 
+/* spaced the contact buttons */
 #contact-links {
     display: flex;
     flex-direction: row;
@@ -45,6 +49,7 @@ h2 {
 
 }
 
+/* lightblue hover effect on contact buttons */
 .fa-solid:hover {
     background-color: lightblue;
 }
@@ -53,6 +58,7 @@ h2 {
     background-color: lightblue;
 }
 
+/* made nav all the same colour */
 .nav-link {
     color: black !important;
 }
